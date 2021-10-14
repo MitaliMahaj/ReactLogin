@@ -1,0 +1,122 @@
+.main{
+    display: flex; 
+    background-image: url('/src/LoginPage/Background.jpg'); 
+    height: 100vh;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .MiddleDiv{
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 85vh;
+      width: 75vw;
+    display: flex;
+  }
+  
+  .DivCol4{
+    width: 40%;
+  }
+  
+  .DivCol8{
+    width: 61%;
+    background-image: url('/src/LoginPage/InnerBackground.png'); 
+  }
+  
+  .HeaderRow{
+    height:  16%;
+  }
+  
+  .FooterMessage{
+    height:  16%;
+    padding: 3%;
+  }
+  
+  .LoginDiv{
+    height: 68%;
+    background-color: white;
+  }
+  
+  .WelcomeDiv{
+    height: 100%;
+   
+  }
+  
+  .LoginForm{
+    position: absolute;
+      top: 38%;
+      left: 4%
+  }
+  .labelStyle{
+    color: lightslategrey;
+    font-weight: 500;
+  }
+  
+  .labelStyle:after{
+    content:"*" ;
+    color:red    
+   }
+
+  
+  .ButtonStyle{
+    float: right;
+    background-color: lightslategrey;
+    color: white;
+    width: 6vw;
+    height: 4vh;
+    border-radius: 14px;
+    border: lightslategrey;
+  }
+  
+  .InputField{
+    margin-top: 1%;
+    border: none;
+    height: 5vh;
+    border-bottom: 1px solid lightgrey;
+    width: 26vw;
+    outline: none;
+    margin-bottom: 5%;
+  }
+  
+  .WarningMessage{
+    color: lightslategrey;
+    font-size: 12px;
+  }
+  
+  .WelcomeText{
+    position: absolute;
+      top: 35%;
+      left: 47%;
+      height: 20vh;
+      width: 41vw;
+      font-size: 6rem;
+      color: white;
+      font-weight: 500;
+  }
+  
+  .WelcomeTextLogin{
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+  }
+  
+  .WelcomeInitial{
+    font-size: 6rem;
+    color: white;
+    font-weight: 100;
+  }
+  
+  .InnerLoginDiv{
+    display: flex;
+      flex-direction: column;
+  }
+
+  .RequiredMessage{
+    color: red;
+    font-size: 12px;
+    display: flex !important;
+  }
+  
